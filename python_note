@@ -1,0 +1,23 @@
+# list 바꿀 수 있음
+days = ["M", "T", "W"]
+
+# tuple 바꿀 수 없음
+days = ("M", "T", "W") -> tuple
+
+# dictionary = {}
+jungwoo = {
+    "name": "jungwoo",
+    "age": 25,
+    "korean": True,
+    "fav_food": ["kimchi, "sashimi"]
+}
+추가 삭제 등도 가능
+jungwoo["handsome"] = True
+
+함수의 argument에 디폴드 value를 정해줘서
+인자값을 받지 못했을 때의 에러를 방지하고 값을 정해줄 수 있음
+
+from 총모듈 import 쓸모듈
+    사용할 모듈만 import가능(효율적)
+from math import ceil as hi
+    함수의 이름을 hi라는 이름으로 사용가능
