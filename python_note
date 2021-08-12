@@ -21,3 +21,15 @@ from 총모듈 import 쓸모듈
     사용할 모듈만 import가능(효율적)
 from math import ceil as hi
     함수의 이름을 hi라는 이름으로 사용가능
+
+# 문자열 검색
+    find() 찾고자 하는 문자열이 존재하는 경우, 시작 인덱스값을 리턴
+    in, not in 맞으면 True
+
+# 콘솔 초기화
+    import os
+    os.system('cls')
+
+# requests
+    requests.get('url')
+    url 받아오기. 입력한 url이 온라인 상태가 아니면 없으면 에러남
