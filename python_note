@@ -33,3 +33,7 @@ from math import ceil as hi
 # requests
     requests.get('url')
     url 받아오기. 입력한 url이 온라인 상태가 아니면 없으면 에러남
+
+# 배열
+    array[-1]을하면 뒤에서 첫번째 값을 나타냄
+    array[:-1]은 뒤에서 첫번째 값을 제외한 것들을 나타냄
