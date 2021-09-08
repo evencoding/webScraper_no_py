@@ -1,1 +1,3 @@
-print(5/0)
+mt = {}
+
+print(type(mt))
