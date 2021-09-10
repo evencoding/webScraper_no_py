@@ -5,7 +5,6 @@ https://replit.com/@evencoding/Day-Two-Blueprint-2#main.py
 """
 내 답
 """
-
 def is_on_list(days, day):
   if(day in days):
     return True
